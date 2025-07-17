@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <script type="module">
+        import {hello, Sample} from "../library/index.js";
+
+        let s = new Sample();
+       
+        document.querySelector('p').innerHTML = `${hello()}  ${s.test()}`;
+
+    </script>
+</head>
+<body>
+    <h1>INDEX PAGE</h1>
+    <p></p>
+    <a href="home.html">Home Page</a>
+</body>
+</html>
