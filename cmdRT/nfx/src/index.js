@@ -7,10 +7,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {NetflixRegisterComponent} from './components/NetflixRegisterComponent';
 import NetflixIndex from './components/NetflixIndex';
+import DataBinding from './components/DataBinding';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <NetflixIndex />
+    <DataBinding />
   </React.StrictMode>
 );
 
